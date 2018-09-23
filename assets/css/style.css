@@ -157,15 +157,6 @@ a.article:hover {
     color: #fff !important;
 }
 
-img.responsive-img {
-	margin: 0 auto;
-	max-height: 100px;
-	padding-bottom: 10px;
-	text-align: center;
-	vertical-align: middle;
-  display: table-cell;
-}
-
 /* ---------------------------------------------------
     CONTENT/SECTION STYLE
 ----------------------------------------------------- */
@@ -212,7 +203,7 @@ section {
 
 
 /* ---------------------------------------------------
-    Skills Section
+    Skills/Education Section
 ----------------------------------------------------- */
 
 .skills-div {
@@ -232,6 +223,51 @@ section {
 .skill-name {
   text-align: center;
 }
+
+img.responsive-img-skill {
+	margin: 0 auto;
+	max-height: 100px;
+	padding-bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+  display: table-cell;
+}
+
+/* ---------------------------------------------------
+    Web Projects Section
+----------------------------------------------------- */
+.webprojects-div {
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #dadada;
+  box-shadow: 5px 10px 8px #dadada;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #999;
+  margin-bottom: 17px;
+  padding: 5px;
+}
+
+p.webProjects {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #999;
+}
+
+img.responsive-img-webProjects {
+	margin: 0 auto;
+	max-height: 200px;
+	padding-bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+  display: table-cell;
+}
+
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
