@@ -201,9 +201,24 @@ section {
   padding-top: 10px;
 }
 
+/* ---------------------------------------------------
+    Splashscreen Section
+----------------------------------------------------- */
+.fullwidth {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+img.responsive-img-headshot {
+	margin: 0;
+  height: auto;
+  width: 100%;
+}
 
 /* ---------------------------------------------------
-    Skills/Education Section
+    Skills/Education/Publications Section
 ----------------------------------------------------- */
 
 .skills-div {
@@ -226,11 +241,33 @@ section {
 
 img.responsive-img-skill {
 	margin: 0 auto;
-	max-height: 100px;
+  max-height: 100px;
+  width: auto;
 	padding-bottom: 10px;
 	text-align: center;
 	vertical-align: middle;
   display: table-cell;
+}
+
+ul.skill {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+li.skill {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+h5.skill {
+  font-family: 'Poppins', sans-serif;
+  color: #999;
 }
 
 /* ---------------------------------------------------
@@ -260,17 +297,27 @@ p.webProjects {
 
 img.responsive-img-webProjects {
 	margin: 0 auto;
-	max-height: 200px;
+  max-height: 200px;
 	padding-bottom: 10px;
-	text-align: center;
-	vertical-align: middle;
-  display: table-cell;
 }
 
 
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+
+@media (max-width: 1240px) {
+  img.responsive-img-webProjects {
+    max-height: 175px;
+  }
+}
+
+@media (max-width: 1100px) {
+  img.responsive-img-webProjects {
+    max-height: 150px;
+  }
+}
 
 @media (max-width: 992px) {
 
@@ -297,5 +344,9 @@ img.responsive-img-webProjects {
     .mobile-header{
     opacity: 1;
     height: 40px;
+    }
+
+    img.responsive-img-webProjects {
+      max-height: 100px;
     }
 }
